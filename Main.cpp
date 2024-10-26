@@ -1,6 +1,5 @@
 // P03ComplexNumbersDriver
 // SaraM
-// SAMPLE TEST SUITE structure. YOU MUST COMPLETE MANY MORE TESTS
 // Test Suite for complex number class
 
 
@@ -119,7 +118,7 @@ int main()
 	assertx(f(complex_number[3]) == complex(0, 0), __LINE__);
 	assertx(f(complex_number[4]) == complex(0, 0), __LINE__);
 
-	// ************************* STUDENTS SHOULD ADD AT LEAST 10 ADDITIONAL TESTS HERE **************************
+	// ************************* ADDITIONAL TESTS HERE **************************
 
 	cout << "\n\nTesting Default Constructor";
 	complex z_default;
